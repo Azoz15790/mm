@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.quiz-container {
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.option {
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+/* حركة الماوس الكيوت */
+
+.option:hover {
+    border-color: #3498db;
+    background-color: #f4f9fd;
+}
+
+
+/* الكلاس الذي سيتم إضافته بالجافا سكريبت عند الكليك */
+
+.option.selected {
+    border-color: #2ecc71;
+    background-color: #e8f8f0;
+    font-weight: bold;
+}
